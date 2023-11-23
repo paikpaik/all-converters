@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 import Time from "./times/Time";
+import Length from "./length/Length";
 
 function App() {
   const [index, setIndex] = useState("select");
@@ -29,7 +30,7 @@ function App() {
       </select>
       <hr />
       {index === "select" ? "Please select your units" : null}
-      {index === "0" ? "길이" : null}
+      {index === "0" ? <Length /> : null}
       {index === "1" ? "데이터 전송 속도" : null}
       {index === "2" ? "데이터 크기" : null}
       {index === "3" ? "면적" : null}
