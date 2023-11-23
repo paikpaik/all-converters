@@ -39,7 +39,7 @@ const Time = () => {
     const inputValue = parseFloat(amount);
     const convertedValue =
       (inputValue * conversionFactors[toUnit]) / conversionFactors[fromUnit];
-    return convertedValue;
+    return Math.round(convertedValue);
   };
 
   return (
