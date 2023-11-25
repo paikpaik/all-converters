@@ -6,4 +6,4 @@ All converters in the world </br>
 
 version 0.0.1 : 시간 변환 가능 </br>
 version 0.0.2 : 시간 값 반올림하기로 결정. </br>
-version 0.1.1 : 길이 변환 가능
+version 0.1.1 : 길이 변환 가능(해리 단위에서 변환 문제 발생, 확인 후 수정예정)
